@@ -1,10 +1,14 @@
 // ! HEADER
 import Header from "./components/header/header.jsx";
 // ! HEADER
-
-// !CORECONCEPTS
+// * CORECONCEPTS
 import CoreConcepts from "./components/CoreConcepts.jsx";
-// !CORECONCEPTS
+// *CORECONCEPTS
+
+// !EXAMPLES
+import Examples from "./components/Examples/Examples.jsx";
+// !EXAMPLES
+
 
 // !CSS
 import "./index.css";
@@ -17,6 +21,7 @@ function App() {
       <main>
         <h2>Time to get started!</h2>
         <CoreConcepts></CoreConcepts>
+        <Examples></Examples>
       </main>
     </div>
   );
