@@ -12,8 +12,7 @@ export default function Examples(){
   let tabContent = <p>PLease Select a Topic</p>;
   if (selectedTopic) {
     tabContent= (
-      <Section id="tab-content">
-        <h2>{EXAMPLES[selectedTopic].title}</h2>
+      <Section id="tab-content" title={EXAMPLES[selectedTopic].title}>
         <p>{EXAMPLES[selectedTopic].description}</p>
         <pre>
           <code>{EXAMPLES[selectedTopic].code}</code>
